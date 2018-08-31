@@ -1,0 +1,67 @@
+// * {
+//     border: 1px solid red; /* remove it */
+// }
+.wrapper {
+    h3 {
+        font-weight: 100;
+    }
+    img {
+        border-radius: 100%;
+        overflow: hidden;
+    }
+    height: 100%;
+    min-height: 500px;
+    font-weight: 100;
+    button {
+        border: 1px solid #8B572A;
+        background-color: #fff;
+        width: 80px;
+        height: 30px;
+        border-radius: 5px;
+        font-size: 1em;
+        color: #8B572A;
+    }
+    .logout-btn{
+        align-self: flex-start;
+        margin-top: 5px;
+    
+    }
+    .wrapper-inner {
+        width: 50%;
+        max-width: 600px;
+        min-width: 200px;
+        padding: 80px 0 50px;
+        h2 {
+            font-weight: 100;
+            font-size: 2em;
+            text-align: left;
+            padding-bottom: 20px;
+            align-self: flex-start;
+        }
+        .title {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+        }
+    }
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .user_info {
+        border-top: 1px solid #dedede;
+        padding: 0px 0 30px;
+        display: flex;
+        flex-direction: column;
+        > div {
+            display: flex;
+            font-size: 1em;
+            font-weight: 100;
+            padding: 30px 0;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+    }
+}

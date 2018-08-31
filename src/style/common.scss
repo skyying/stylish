@@ -1,0 +1,23 @@
+.hide{
+    display: none;
+}
+
+@mixin flex-child(){
+    display: flex;
+    flex-direction: row;
+}
+
+@mixin center-child(){
+    @include flex-child;
+    flex-wrap:  wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+%centerInner{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
